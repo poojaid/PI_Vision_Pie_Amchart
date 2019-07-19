@@ -1,0 +1,24 @@
+<ul kendo-panel-bar class="t-side-panel-bgcolor" style="font-size: 14px;"> 
+	<li class="k-state-active"> 
+		<span class="panel-bar-label-no-wrap">Configuration</span>
+		<div class="config-option-single-row" style="margin:10px 20px; font-size: 14px;"> 
+			<div class="config-option-ie11-overflow-fix"> 
+			
+				<div class="config-color">
+				<div style ="width:85%;margin: 10px 0 15px 20px;">
+				<pv-color-picker id="backgroundColor" ng-model="config.backgroundColor" config="config" colorkeyword="Background">
+				</pv-color-picker>
+				</div>
+				</div>
+				
+<div class="config-text">
+<div style ="width:85%;margin: 10px 0 15px 20px;">
+	<pv-color-picker id="textColor" ng-model="config.textColor" config="config" colorkeyword="Text">
+</pv-color-picker></div>
+</div>
+
+				
+			</div>
+		</div> 
+	</li>
+</ul>
